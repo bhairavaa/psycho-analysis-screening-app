@@ -1,0 +1,20 @@
+# 🐍 Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# 🧼 Streamlit cache
+.streamlit/
+*.toml
+
+# 📦 Virtual environments
+venv/
+.env
+.env.*
