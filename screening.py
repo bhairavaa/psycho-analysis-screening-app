@@ -33,6 +33,7 @@ def screening():
 
                 if st.button("Next"):
                     st.session_state.question_index += 1
+                    
                 if st.button("Previous"):
                     if st.session_state.question_index > 0:
                         st.session_state.question_index -=1

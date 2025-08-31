@@ -16,6 +16,7 @@ if "screen" not in st.session_state:
     st.session_state.screen= "home"
 
 with st.sidebar:
+    
     if st.button("Go To Home"):
         st.session_state.screen = "home"
     if st.button("Add Question"):
@@ -29,5 +30,6 @@ if st.session_state.screen == "home":
 elif st.session_state.screen == "questions":
     question_page()
 elif st.session_state.screen == "screening":
+
     screening()
 

@@ -24,6 +24,7 @@ def question_page():
         return counter["sequence_value"]
 
     with st.container():
+            
             question_form = st.form("Fill out the details", clear_on_submit=True)
             with question_form:
                 instruction = st.text_area("Enter the Instruction")
